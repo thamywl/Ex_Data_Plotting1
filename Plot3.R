@@ -37,5 +37,5 @@ legend("topright", lty = 1,  col = c("black","red","blue"), legend = c("Sub Mete
 par.ini = par(no.readonly = TRUE)
 
 ## Copy plot from window device to png device
-dev.copy(png, file = "plot3.png")
+dev.copy(png, width = 600, height = 400, file = "plot3.png")
 dev.off()
