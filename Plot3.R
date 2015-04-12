@@ -31,7 +31,7 @@ data2$Timestamp = strptime(paste(data2$Date, data2$Time), format = "%Y-%m-%d %H:
 with(data2, plot(Timestamp,Sub_metering_1, type="l", col = "black", ylab = "Energy Sub Metering", xlab = ""))
 with(data2, points(Timestamp,Sub_metering_2, type="l", col = "red"))
 with(data2, points(Timestamp,Sub_metering_3, type="l", col = "blue"))
-legend("topright", lty = 1,  col = c("black","red","blue"), legend = c("Sub Metering 1", "Sub Metering 2", "Sub Metering 3"))
+legend("topright", lty = 1,  col = c("black","red","blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 ## Set a initialization/default value of the original condition of the plot parameters
 par.ini = par(no.readonly = TRUE)
