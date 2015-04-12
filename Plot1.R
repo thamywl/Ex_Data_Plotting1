@@ -30,5 +30,5 @@ hist(data2$Global_active_power, col = "Red"
 par.ini = par(no.readonly = TRUE)
 
 ## Copy plot from window device to png device
-dev.copy(png, file = "plot1.png")
+dev.copy(png, width = 600, height = 400, file = "plot1.png")
 dev.off()
