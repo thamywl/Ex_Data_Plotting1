@@ -23,7 +23,7 @@ Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It co
 Scripts
 ========
 All of the plots in this reporsitory are taking data from dates 2007-02-01 and 2007-02-02
-1) Plot1.R plots the histogram of frequency of each Household Global Active Power Consumption
+- 1) Plot1.R plots the histogram of frequency of each Household Global Active Power Consumption
 2) Plot2.R plots the Household Global Active Power consumption over time for the timeframe of concern
 3) Plot3.R plots the 3 buckets of energy consuming devices for their power consumption over time for the timeframe of concern
 4) Plot4.R plots the summary of Plot2 and Plot3 along with the Household Global Reactive Power Consumption and the VOltage over time for the given timeframe
