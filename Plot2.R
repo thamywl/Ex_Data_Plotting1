@@ -31,5 +31,5 @@ with(data2, plot(Timestamp, Global_active_power, type = "l", ylab = "Global Acti
 par.ini = par(no.readonly = TRUE)
 
 ## Copy plot from window device to png device
-dev.copy(png, file = "plot2.png")
+dev.copy(png, width = 600, height = 400, file = "plot2.png")
 dev.off()
